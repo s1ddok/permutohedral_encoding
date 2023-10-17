@@ -26,7 +26,7 @@ def max_supported_compute_capability(cuda_version):
 	elif cuda_version < parse_version("11.8"):
 		return 86
 	else:
-		return 90
+		return 89
 
 # Find version of permutohedral_encoding by scraping CMakeLists.txt
 # with open(os.path.join(ROOT_DIR, "CMakeLists.txt"), "r") as cmakelists:
